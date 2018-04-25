@@ -12,14 +12,15 @@ namespace :greeting do
     end
 end
 
+desc "reqired envoronment."
 task :environment do
     require_relative './config/environment'
     puts "reqired envoronment."
 end
 
 desc 'migrates the database.'
-task :migrate => :environment do 
-    
+task :migrate => :environment do
+
 end
 
 namespace :db do
