@@ -27,6 +27,6 @@ namespace :db do
     desc 'seeds the database.'
     task :seed do
         require_relative './db/seed.rb'
-        puts "Seeded seed database."
+        puts "Seed database."
     end
 end
