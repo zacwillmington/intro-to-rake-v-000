@@ -21,7 +21,7 @@ end
 namespace :db do
     desc 'migrates the database.'
     task :migrate => :environment do
-        put "Environment migrated."
+        puts "Environment migrated."
     end
 
     desc 'seeds the database.'
