@@ -11,3 +11,10 @@ namespace :greeting do
       puts "hola de Rake!"
     end
 end
+
+
+namespace :db do 
+    desc 'migrates the database.'
+    task :seed => 'db/seed.rb'
+    end
+end
