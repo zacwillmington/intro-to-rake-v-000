@@ -17,6 +17,11 @@ task :environment do
     puts "reqired envoronment."
 end
 
+desc 'migrates the database.'
+task :migrate => :environment do 
+    
+end
+
 namespace :db do
     desc 'seeds the database.'
     task :seed => 'db/seed.rb' do
