@@ -24,6 +24,6 @@ namespace :db do
     end
 
     desc 'seeds the database.'
-    task :seed => 'db/seed.rb' do
+    task :seed => './db/seed.rb' do
     end
 end
