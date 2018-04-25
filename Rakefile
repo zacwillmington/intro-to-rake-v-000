@@ -14,6 +14,7 @@ end
 
 task :environment do
     require_relative './config/environment'
+    puts "Working"
 end
 
 namespace :db do
