@@ -12,7 +12,7 @@ namespace :greeting do
     end
 end
 
-desc "reqired envoronment."
+desc "reqires environment."
 task :environment do
     require_relative './config/environment'
     puts "reqired envoronment."
